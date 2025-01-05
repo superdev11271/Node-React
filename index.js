@@ -44,5 +44,5 @@ app.use('/role', authMiddleware, roleRouter)
 app.use('/auth', authRouter)
 
 app.listen(8080, () => {
-  console.log('Listening to the Port 9000')
+  console.log('Listening to the Port 9001')
 })
